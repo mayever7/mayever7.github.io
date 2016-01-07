@@ -1,0 +1,9 @@
+# Directories #
+###############
+logs/
+.idea/
+test/
+
+# Double Minified Files #
+###############
+*.min.min.js

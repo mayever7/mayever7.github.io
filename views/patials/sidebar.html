@@ -1,0 +1,39 @@
+<div class="admin-sidebar">
+	<div class="text-center admin-sidebar-header">
+		<div class="logo">
+			ADMIN TEMPLATE
+		</div>
+	</div>
+	<div class="admin-sidebar-nav-box">
+		<div class="text-center admin-profile">
+			<img class="img-circle" src="images/dev/sun.png">
+			<div class="admin-profile-text-box">
+				<div class="admin-profile-name">
+					Sun
+				</div>
+				<div class="admin-profile-desc">
+					developer
+				</div>
+			</div>
+		</div>
+		<div class="admin-nav">
+			<ul class="list-group">
+				<li ng-class="{'active': route.current.activePage == 'main'}">
+					<a href="#/">
+						Dashboard
+					</a>
+				</li>
+				<li ng-class="{'active': route.current.activePage == 'buttons'}">
+					<a href="#buttons">
+						Buttons
+					</a>
+				</li>
+				<li ng-class="{'active': route.current.activePage == 'colors'}">
+					<a href="#colors">
+						Colors
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

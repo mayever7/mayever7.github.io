@@ -1,0 +1,55 @@
+/* Base  */
+/* Mixins */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Light.eot');
+  src: url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Light.eot#iefix') format('embedded-opentype'), url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Light.woff') format('woff'), url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Medium.eot');
+  src: url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Medium.eot#iefix') format('embedded-opentype'), url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Medium.woff') format('woff'), url('../../../fonts/AppleSDGothicNeo/AppleSDGothicNeo-Medium.ttf') format('truetype');
+}
+body {
+  color: #4d5756;
+  font-family: 'Helvetica', 'Apple SD Gothic Neo', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+a {
+  display: block;
+  cursor: pointer;
+}
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  -moz-outline-style: none;
+}
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+th {
+  font-weight: normal;
+}
+table th {
+  text-align: center;
+}
+table td a {
+  display: inline-block;
+}
+.bold {
+  font-weight: bold;
+}

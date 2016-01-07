@@ -1,0 +1,54 @@
+/* Override Bootstrap  */
+@import "less/variables.less";
+@import "less/mixins.less";
+
+.panel-default > .panel-heading {
+    background-color: @gray-base;
+}
+
+.table-bordered {
+    //border: 1px solid @border-component-base;
+    .border-radius(2px, 2px, 2px, 2px);
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid @border-component-inner;
+}
+
+.table-bordered > thead > tr {
+    border: 1px solid @border-component-base;
+}
+
+.table-bordered > tbody > tr:last-child > td, .table-bordered > tbody > tr:last-child > th {
+    border-bottom: 1px solid @border-component-base;
+}
+
+.table-bordered > tbody > tr > td:first-child {
+    border-left: 1px solid @border-component-base;
+}
+
+.table-bordered > tbody > tr:last-child {
+    border-bottom: 1px solid @border-component-base;
+}
+
+.table-bordered > thead > tr > th {
+    border-bottom: 2px solid @border-component-base;
+}
+
+.table-bordered > thead > tr > th:first-child, .table-bordered > tbody > tr > th:first-child {
+    border-left: 1px solid @border-component-base;
+}
+
+.table-bordered > thead > tr > th:last-child, .table-bordered > tbody > tr > td:last-child {
+    border-right: 1px solid @border-component-base;
+}
+
+.table-bordered tbody {
+    font-size: 13px;
+}
+
+.modal-footer {
+    text-align: center;
+}
